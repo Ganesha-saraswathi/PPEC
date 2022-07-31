@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.pre-loder {
+   position: fixed;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+   transition: 2s;
+   background: #fff url('https://wpamelia.com/wp-content/uploads/2018/11/ezgif-2-6d0b072c3d3f.gif')no-repeat center center;
+}
+
+.complete {
+    /* transition: 5s; */
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    /* background: #fff; */
+}
+
+.mi {
+    width: 40%;
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 31%;
+    padding: 4%;  
+    border: 2px solid crimson;  
+    border-radius: 20px 10px;
+    font-size: x-large;
+    text-shadow: 0 0 2px red;
+    box-shadow: 0 9px 23px 0 rgba(5, 218, 147, 0.76), 8px 30px 0 rgba(97, 154, 228, 0.349), 19px 0 rgba(236, 70, 195, 0.616), 29px 0 rgb(255, 105, 180);
+}

@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Cormorant+SC:wght@300;400&family=Dancing+Script:wght@400;500&family=Kanit:wght@100;200&family=Lobster&family=Mochiy+Pop+One&family=Mouse+Memoirs&family=PT+Sans:ital@0;1&family=Pacifico&family=Square+Peg&display=swap');
+
+body {
+    background-image: url(http://4.bp.blogspot.com/-pvHXWnWrynk/UwaltV4GTsI/AAAAAAAAANw/TlI9pwDmTuE/s1600/swirl.gif);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+ }
+
+ @keyframes example {
+   0% {font-size: x-large;}
+   10% {background-color: transparent;}
+   15% { border-radius: 50% 50%; }
+   20% {filter: blur(20px);}   
+   25% { box-shadow: inset 10px 5px 25px 5px wheat, 5px 5px 12px 2px bisque;}
+  }
+
+  @keyframes example-1 {
+
+  }
+
+ .ym {
+    /* display: flex; */
+    width: 60%;
+    height: 60%;
+    text-align: center;
+    margin: auto;
+    padding-top: 15%;
+ }
+
+ .text-su {
+    font-size: xx-large;
+    border: 5px solid aliceblue;
+    box-shadow: 0 22px 12px 0 orangered, 0 61px 41px 0 red; 
+ }
+
+ .text-su :hover{
+    animation-name: example;
+    animation-duration: 4s;
+ }
+ .at {
+    color: darkgoldenrod;
+    text-shadow: 1px 1px 2px blue, 0 0 1em green, 0 0 0.5em blue;
+    font-family: 'Pacifico', cursive;
+ }
+
+ .bt{
+    color: darkred;
+    text-shadow: 1px 1px 2px rgb(136, 136, 219), 0 0 1em rgba(248, 211, 0, 0.37), 0 0 0.5em rgb(0, 0, 255);
+    font-family: 'Mochiy Pop One', sans-serif;
+ }
+
+ .ct{
+    color: darkcyan;
+    text-shadow: 1px 1px 2px blue, 0 0 1em green, 0 0 0.5em blue;
+    font-family: 'Lobster', cursive;
+ }
+
+ .dt{
+    color: darkgreen;
+    text-shadow: 1px 1px 2px blue, 0 0 1em green, 0 0 0.5em blue;
+    font-family: 'Kanit', sans-serif;
+ }
+
+ .et{
+    color: orangered;
+    text-shadow: 1px 1px 2px blue, 0 0 1em green, 0 0 0.5em blue;
+    font-family: 'Dancing Script', cursive;
+ }
+
+ .ft{
+    color: darkred;
+    text-shadow: 1px 1px 2px blue, 0 0 1em green, 0 0 0.5em blue;
+    font-family: 'Cormorant SC', serif;
+ }
+
+ .gt{
+    color: forestgreen;
+    text-shadow: 1px 1px 2px blue, 0 0 1em green, 0 0 0.5em blue;
+    font-family: 'Cabin', sans-serif;
+ }
+
+ .ht{
+    color: purple;
+    text-shadow: 1px 1px 2px blue, 0 0 1em green, 0 0 0.5em blue;
+    font-family: 'Mouse Memoirs', sans-serif;
+ }
+
+ .it{
+    color: firebrick;
+    text-shadow: 1px 1px 2px blue, 0 0 1em green, 0 0 0.5em blue;
+    font-family: 'PT Sans', sans-serif;
+ }
+
+ .jt {
+    color: rgb(175, 99, 247);
+    text-shadow: 1px 1px 2px blue, 0 0 1em green, 0 0 0.5em blue;
+    font-family: 'Square Peg', cursive;
+ }
+
+ .kt {
+    color: purple;
+    text-shadow: 1px 1px 2px blue, 0 0 1em green, 0 0 0.5em blue;
+    font-family: 'Concert One', 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS';
+ }
+
+ .a-zt {
+    color: rgb(179, 255, 0);
+    text-shadow: 2px 12px 10px blue, 0 0 30px rgb(252, 59, 0), 0 0 0.5em rgb(157, 9, 255);
+    font-family: 'Concert One', 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS';
+ }
+
+ .bo {
+    background-color: black;
+    border-color: aliceblue;
+ }

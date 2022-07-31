@@ -1,0 +1,18 @@
+body {
+    background-image: url(https://lh3.googleusercontent.com/-hcNHr_4ZG1M/Wni5Rtafm_I/AAAAAAAEswQ/aIaZ-g89XtU5eK-W7ISQrVxrHunFQJOpQCHMYCw/s640/0_e8895_d51a4e5a_orig.gif);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+ }
+
+ .mtr {
+    margin: 1.5%;
+    margin-top: 5%;
+    margin-left: 3%;
+    background-color: wheat;
+ }
+
+ .hhj {
+    padding: 15px;
+    background-color: aqua;
+ }
